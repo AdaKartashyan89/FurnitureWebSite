@@ -1,0 +1,35 @@
+.our{
+    min-height: 1188px;
+    padding: 50px 0 50px 0;
+    position: absolute;
+    top: 1460px;
+    left:0;
+    width:100%;
+    margin-bottom: 100px;
+    &__pick{
+        width: 428px;
+        height: 463px;
+        transition: all 0.6s;
+        &:hover{
+            
+            transform: scale(1.05);
+        }
+    }
+    &__bellow{
+        margin-top: 40px;
+    }
+    &__title{
+        margin-bottom: 70px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 114%;
+        /* or 73px */
+        color: #E39E2D;
+
+        text-align: center;
+    }
+
+
+}

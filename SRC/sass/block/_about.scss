@@ -1,0 +1,143 @@
+.about{
+    position: absolute;
+    top: 2746px;
+    left: 0;
+    width: 100%;
+    min-height: 787px;
+    padding: 50px 0 50px 0;
+    &__title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 114%;
+        /* or 73px */
+        color: #E39E2D;
+        text-align: center;
+    }
+    &__wrapper{
+        
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: 650px 501px;
+        /* justify-content: space-between; */
+        column-gap: 190px;
+    }
+    &__slidwrapper{
+        position: relative;
+        height: 625px;
+    }
+    &__slider{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 650px;
+height: 383px;
+        
+    }
+    &__smslider{
+        position: absolute;
+        top: 428px;
+        left: 0;
+        width: 650px;
+        img{
+            margin: 0 7px;
+            &:nth-child(3){
+                margin-right: 0;
+            }
+        }
+        .slick-dots{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+            font-size: 0;
+            margin-top: 10px;
+            cursor:pointer;
+            .slick-active{
+               
+                button{
+                    background-color: transparent;
+                    border: 1px solid #000;
+                }
+            }
+            li{
+                list-style: none;
+                margin: 0 10px;
+                
+                button{
+                    opacity: 1;
+                    font-size: 0;
+                    width: 20px;
+                    height: 20px;
+                    background-color: rgb(114, 114, 114);
+                    border-radius: 100%;
+                    border:none;
+                }
+           
+        }
+
+        }
+
+    }
+    &__spicks{
+        display: grid;
+        /* grid-template-columns: 203px 203px 203px; */
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+    }
+    &__text{
+        width: 400px;
+        margin-top: 1px;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 145%;
+        /* or 29px */
+
+
+        color: rgba(0, 0, 0, 0.6);
+    }
+    .slick-slider{}
+    /* Слайдер запущен */
+    .slick-slider.slick-initialized{}
+    /* Слайдер с точками */
+    .slick-slider.slick-dotted{}
+    /* Ограничивающая оболочка */
+    .slick-list {
+        overflow: hidden;
+    }
+    /* Лента слайдов */
+    .slick-track{
+        display: flex;
+        align-items:flex-start;
+    }
+    /* Слайд */
+    .slick-slide{}
+    /* Слайд активный (показывается) */
+    .slick-slide.slick-active{}
+    /* Слайд основной */
+    .slick-slide.slick-current{}
+    /* Слайд по центру */
+    .slick-slide.slick-center{}
+    /* Клонированный слайд */
+    .slick-slide.slick-cloned{}
+    /* Стрелка */
+    .slick-arrow{}
+    /* Стрелка влево */
+    .slick-arrow.slick-prev{}
+    /* Стрелка вправо */
+    .slick-arrow.slick-next{}
+    /* Стрелка не активная */
+    .slick-arrow.slick-disabled{}
+    /* Точки (булиты) */
+    .slick-dots{}
+    .slick-dots li{}
+    /* Активная точка */
+    .slick-dots li.slick-active{}
+    /* Элемент точки */
+    .slick-dots li button{}
+}

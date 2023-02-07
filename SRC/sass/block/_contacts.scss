@@ -1,0 +1,105 @@
+.contacts{
+    position: absolute;
+    top: 4590px;
+    left: 0;
+    width: 100%;
+    min-height: 619px;
+    padding: 50px 0 50px 0;
+    &__title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 114%;
+        /* or 73px */
+        color: #E39E2D;
+        text-align: center;
+
+    }
+    &__wrapper{
+        margin: 0 auto;
+        margin-top: 70px;
+        width: 1096px;
+        height: 400px;
+        display: grid;
+        grid-template-columns: 343px 600px;
+        justify-content: space-between;
+    }
+    &__info{
+        margin-top: 101px;
+    }
+    &__adres{
+        margin-top: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 104%;
+        /* or 27px */
+
+        text-align: left;
+
+        color: rgba(0, 0, 0, 0.55);
+    }
+    &__email{
+        margin-top: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 104%;
+        /* or 27px */
+
+
+        color: rgba(0, 0, 0, 0.55);
+    }
+    &__tel{
+        margin-top: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 104%;
+        /* or 27px */
+
+
+        color: rgba(0, 0, 0, 0.55);
+    }
+    &__form{
+        width: 298px;
+        margin-top: 26px;
+        input{
+            width: 298px;
+            height: 37px;
+            border: 1px solid rgba(0, 0, 0, 0.5);
+            border-radius: 12px;
+            padding: 0 20px 0 20px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 20px;
+            line-height: 29px;
+            /* identical to box height */
+
+
+            color: rgba(0, 0, 0, 0.2);
+        }
+    }
+    &__btn{
+        margin-top: 18px;
+        width: 298px;
+        height: 37px;
+        background: #F79E1B;
+        border-radius: 12px;
+        border:none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        /* identical to box height */
+
+
+        color: #FFFFFF;
+    }
+}

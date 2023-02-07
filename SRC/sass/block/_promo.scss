@@ -1,0 +1,27 @@
+.promo{
+    position: absolute;
+    left:0;
+    width:100%;
+    top:168px;
+    /* margin-bottom: 100px; */
+    min-height: 1171px;
+    background: url('../img/MainBg.png') center (center/cover) no-repeat;
+   
+    
+    &__title{
+        width: 591px;
+        margin-right: 183px;
+        margin-top: 636px;
+        margin-left: 596px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 114%;
+        /* or 73px */
+
+        text-align: center;
+        color:  #FFFFFF;
+    }
+}
