@@ -1,0 +1,21 @@
+@mixin menu_hover{
+    &:hover{
+        color:$amain-color;
+        &:hover{
+            
+            transform: scale(1.05);
+        }
+        
+    }
+}
+
+@mixin btn_hover{
+    &:hover{
+        background: $btna-color;
+        &:hover{
+            
+            transform: scale(1.03);
+        }
+    }
+}
+
