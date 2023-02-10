@@ -19,3 +19,13 @@
     }
 }
 
+@mixin flink_hover{
+    &:hover{
+        color:#fff;
+        font-weight: 600;
+        &:hover{
+            transform: scale(1.03);
+        }
+    }
+}
+
