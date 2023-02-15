@@ -1,0 +1,33 @@
+@media (max-width: 1400px){
+    .promo{
+        &__title{
+            margin-left: 415px;
+            margin-right: 0px;
+        }
+    }
+    .our{
+        &__pick{
+            width: 353px;
+            height: 353px;
+        }
+    }
+    .about{
+        &__wrapper{
+            grid-template-columns: 543px 433px;
+            /* justify-content: space-between; */
+            column-gap: 112px;
+        }
+        &__slider{
+            width: 542px;
+            height: 545px;
+        }
+        &__smslider{
+            width: 542px;
+            img{
+                margin: 0 5px;
+                width: 167px;
+                height: 120px;
+            }
+        }
+    }
+}

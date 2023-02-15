@@ -33,7 +33,7 @@
         left: 0;
         display: block;
         width: 650px;
-height: 383px;
+        height: 383px;
         
     }
     &__smslider{
@@ -43,6 +43,8 @@ height: 383px;
         width: 650px;
         img{
             margin: 0 7px;
+            width: 203px;
+            height: 146px;
             &:nth-child(3){
                 margin-right: 0;
             }
