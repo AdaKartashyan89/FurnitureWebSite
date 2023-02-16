@@ -1,17 +1,29 @@
 @media (max-width: 1400px){
     .promo{
+        top: 202px;
+        min-height: 843px;
         &__title{
-            margin-left: 415px;
+            margin-top: 413px;
+            margin-left: 406px;
             margin-right: 0px;
+            font-size: 72px;
         }
     }
     .our{
+        top: 1193px;
+        min-height: 1036px;
         &__pick{
             width: 353px;
             height: 353px;
         }
     }
     .about{
+        top: 2329px;
+        min-height: 806px;
+        &__text{
+            width: 432px;
+            margin-top: 0;
+        }
         &__wrapper{
             grid-template-columns: 543px 433px;
             /* justify-content: space-between; */
@@ -19,15 +31,114 @@
         }
         &__slider{
             width: 542px;
-            height: 545px;
+            height: 380px;
         }
         &__smslider{
+            top: 425px;
             width: 542px;
+            height: 165px;
             img{
                 margin: 0 5px;
                 width: 167px;
                 height: 120px;
             }
         }
+    }
+    .orders{
+        top: 3235px;
+        min-height: 876px;
+        &__bslider{
+            margin-top: 94px;
+            width: 726px;
+            height: 371px;
+            img{
+                width:100%;
+                height: 100%;
+            }
+        }
+        &__slider{
+            width: 726px;
+            height: 170px;
+        }
+        &__item{
+            width: 166px;
+            height: 114px;
+            img{
+                width:100%;
+                height: 100%;
+            }
+        }
+        
+    }
+    .contacts{
+        top: 4121px;
+    }
+    .footer{
+        top: 4744px;
+    }
+    
+}
+
+@media (max-width: 1200px){
+    .promo{
+        top: 182px;
+        min-height: 634px;
+        &__title{
+            margin-left: 374px;
+            margin-top: 310px;
+            width: 534px;
+            font-size: 58px;
+        }
+    }
+
+    .our{
+        top: 882px;
+        min-height: 862px;
+        &__pick{
+            width: 295px;
+            height: 295px;
+        }
+        &__bellow{
+            margin-top: 30px;
+        }
+        
+    }
+    .about{
+        top: 1844px;
+        min-height: 723px;
+        &__wrapper{
+            grid-template-columns: 450px 400px;
+            column-gap:86px;
+        }
+        &__slider{
+            width: 450px;
+            height: 315px;
+            img{
+                width: 100%;
+                height: 315px;
+            }
+        }
+        &__smslider{
+            top: 345px;
+            width: 450px;
+            height: 135px;
+            img{
+                margin: 0 7px;
+                width: 100%;
+                height: 97px;
+            }
+        }
+        .slick-dots{
+            margin-top: 15px;
+        }
+        &__text{
+            width: 400px;
+            font-size: 16px;
+            margin-top: 25px;
+        }
+        &__slidwrapper{
+            height: 480px;
+        }
+
     }
 }

@@ -21,7 +21,7 @@
         display: grid;
         grid-template-columns: 650px 501px;
         /* justify-content: space-between; */
-        column-gap: 190px;
+        column-gap: 132px;
     }
     &__slidwrapper{
         position: relative;
@@ -34,6 +34,10 @@
         display: block;
         width: 650px;
         height: 383px;
+        img{
+            width: 542px;
+            height: 380px;
+        }
         
     }
     &__smslider{
@@ -56,7 +60,7 @@
             padding: 0;
             margin: 0;
             font-size: 0;
-            margin-top: 10px;
+            margin-top: 25px;
             cursor:pointer;
             .slick-active{
                
@@ -84,15 +88,15 @@
         }
 
     }
-    &__spicks{
+    /* &__spicks{
         display: grid;
-        /* grid-template-columns: 203px 203px 203px; */
+        grid-template-columns: 203px 203px 203px;
         grid-template-columns: repeat(3, 1fr);
         column-gap: 20px;
-    }
+    } */
     &__text{
-        width: 400px;
-        margin-top: 1px;
+        width: 501px;
+        margin-top: 41px;
         font-family: 'Merriweather';
         font-style: normal;
         font-weight: 400;
@@ -116,6 +120,7 @@
     .slick-track{
         display: flex;
         align-items:flex-start;
+        
     }
     /* Слайд */
     .slick-slide{}
