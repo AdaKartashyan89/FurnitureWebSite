@@ -28,9 +28,12 @@ $(document).ready(function(){
         
         asNavFor:".orders__bslider",
         responsive:[{
-            breakpoint:768,
+            breakpoint:991,
             settings:{
-                slidesToShow:2
+                slidesToShow:3,
+                slidesToScroll:1,
+                infinite: true,
+                dots: true
             }
         },{
             breakpoint:575,
@@ -75,4 +78,33 @@ $(document).ready(function(){
         asNavFor:".about__smslider"
         
     });
+
+    $('.about__tbsmslider').slick({
+        arrows:false,
+        dots:true,
+        adaptiveHeight:true,
+        slidesToShow:3,
+        slidesToScroll:1,
+        speed:1000,
+        easing:'ease',
+        infinite:true,
+        initialSlide:0,
+        autoplay:false,
+        autoplaySpeed:1500,
+        pauseOnFocus:true,
+        pauseOnHover:true,
+        pauseOnDotsHover:true,
+        draggable:true,
+        swipe:true,
+        touchThreshold:25,
+        asNavFor:".about__slider"
+    });
+    $('.about__tbslider').slick({
+        arrows:false,
+        fade:true,
+        speed:1000,
+        asNavFor:".about__smslider"
+        
+    });
+
 });

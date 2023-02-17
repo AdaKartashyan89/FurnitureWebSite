@@ -6,6 +6,9 @@
     min-height: 270px;
     background:#686868;
     padding: 50px 0 50px 0;
+    &__tbwrapper{
+        display: none;
+    }
     &__wrapper{
         display: flex;
         justify-content: space-between;
@@ -94,6 +97,7 @@
         height: 34px;
     }
     &__cards{
+        margin-top: 36px;
         display: flex;
         justify-content: flex-end;
     }

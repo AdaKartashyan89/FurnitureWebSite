@@ -5,6 +5,9 @@
     width: 100%;
     min-height: 787px;
     padding: 50px 0 50px 0;
+    &__tbwrapper{
+        display: none;
+    }
     &__title{
         font-family: 'Inter';
         font-style: normal;
