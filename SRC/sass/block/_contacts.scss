@@ -25,7 +25,13 @@
         grid-template-columns: 343px 600px;
         justify-content: space-between;
     }
+    &__mbmap{
+        display: none;
+    }
     &__1Tbmap{
+        display: none;
+    }
+    &__2tbmap{
         display: none;
     }
     &__map{
