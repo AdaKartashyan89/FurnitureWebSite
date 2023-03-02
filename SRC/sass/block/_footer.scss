@@ -34,11 +34,10 @@
         display: block;
         
     }
-    &__link{
-        text-decoration: none;
-    }
+    
     
     &__link{
+        text-decoration: none;
         display: block;
         margin-bottom: 19px;
         font-family: 'Inter';
@@ -63,7 +62,7 @@
     }
     &__rights{
         position: absolute;
-        top: 61px;
+        top: 41px;
         left: 0;
         font-family: 'Open Sans';
         font-style: normal;
