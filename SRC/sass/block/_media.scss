@@ -662,6 +662,7 @@
     }
 }
 
+<<<<<<< HEAD
 @media  (max-width: 576px){
     header{
         position: relative;
@@ -1256,6 +1257,9 @@
 }
 
 /* @media (max-width:575px){
+=======
+@media (max-width:575px){
+>>>>>>> c869ffe33179917432d3eeefd3a430a92723d14d
     .container{
         padding: 0 10px;
     }
@@ -1279,7 +1283,11 @@
                 top: 0;
                 right: 0;
                 width: 73%;
+<<<<<<< HEAD
                 
+=======
+                /* height: 100vh; */
+>>>>>>> c869ffe33179917432d3eeefd3a430a92723d14d
                 padding: 30px 0 45px 0;
                 flex-direction: column;
                 background-color:rgba(f, f, f, .8);
