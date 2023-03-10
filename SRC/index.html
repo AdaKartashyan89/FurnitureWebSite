@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FurnitureSite</title>
+    <link rel="icon" href="icons/favicon-32x32.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather&display=swap" rel="stylesheet">
@@ -19,11 +20,11 @@
     <header>
         <nav>
            <div class="container">
-            <ul class="menu">
-                <li class="menu_litem"><a href="#" class="menu_link"><img src="img/Rectangle 1.png" alt="" class="menu_logo"></a></li>
+            <ul class="menu" id="menu">
+                <li class="menu_litem"><a href="#menu" class="menu_link"><img src="img/Rectangle 1.png" alt="" class="menu_logo"></a></li>
                 <div class="menu__block">
-                    <li class="menu_item"><a href="#" class="menu_link menu_link2">About</a></li>
-                <li class="menu_item"><a href="#" class="menu_link menu_link3">Contacts</a></li>
+                    <li class="menu_item"><a href="#about" class="menu_link menu_link2">About</a></li>
+                <li class="menu_item"><a href="#contacts" class="menu_link menu_link3">Contacts</a></li>
                 <li class="menu_item"><a href="tel:37464553251" class="menu_link menu_link3">(+374)64-55-32-51
                 </a></li>
                 </div>
@@ -34,9 +35,9 @@
                 <div class="mb_block">
                     <img src="img/Close.png" alt="" class="mb__close">
                 <ul class="mb_menu">
-                    <li class="mb_menu__item"><a class="mb_menu__link" href="">Home</a></li>
-                    <li class="mb_menu__item"><a class="mb_menu__link" href="">About</a></li>
-                    <li class="mb_menu__item"><a class="mb_menu__link" href="">Contacts</a></li>
+                    <li class="mb_menu__item"><a class="mb_menu__link" href="#menu">Home</a></li>
+                    <li class="mb_menu__item"><a href="#about" class="mb_menu__link" >About</a></li>
+                    <li class="mb_menu__item"><a class="mb_menu__link" href="#contacts">Contacts</a></li>
                 </ul>
 
                 <div class="mb_info">
@@ -62,7 +63,7 @@
                     <span class="mb_hamburger__short"></span>
                 </div>
 
-                <a href="#" class="mb_phone">(+374)64-55-32-51
+                <a href="tel:37464553251" class="mb_phone">(+374)64-55-32-51
                 </a>
             </div>
             
@@ -110,7 +111,7 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="about__title">About us</div>
             <div class="about__wrapper">
@@ -205,7 +206,7 @@
         </div>
     </section>
 
-    <section class="contacts">
+    <section class="contacts" id="contacts">
         <div class="container">
             <div class="contacts__title">Contacts</div>
             <div class="contacts__wrapper">

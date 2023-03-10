@@ -97,13 +97,13 @@ $(document).ready(function(){
         draggable:true,
         swipe:true,
         touchThreshold:25,
-        asNavFor:".about__slider"
+        asNavFor:".about__tbslider"
     });
     $('.about__tbslider').slick({
         arrows:false,
         fade:true,
         speed:1000,
-        asNavFor:".about__smslider"
+        asNavFor:".about__tbsmslider"
         
     });
 
