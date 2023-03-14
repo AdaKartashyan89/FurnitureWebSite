@@ -31,3 +31,16 @@
     }
 }
 
+@mixin fmblink_hover{
+    &:hover{
+        /* transition: 0.4s all ; */
+        color:#fff;
+        font-weight: 600;
+        &:hover{
+            
+            transform: scale(0);
+        }
+    }
+}
+
+
